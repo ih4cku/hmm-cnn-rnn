@@ -1,0 +1,3 @@
+symtab = SymbolTable['WORDS_SYMTAB'];
+lines = StringFile['LINES_FILE', symtab];
+export G = Optimize[ lines ];
